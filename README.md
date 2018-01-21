@@ -1,6 +1,6 @@
 # PythonLearningProjects
 
-Just a bunch of projects to get used to Python based on the [http://www.dreamincode.net/forums/topic/78802-martyr2s-mega-project-ideas-list/](exercises of Martyr2).
+Just a bunch of projects to get used to Python based on the [exercises of Martyr2](http://www.dreamincode.net/forums/topic/78802-martyr2s-mega-project-ideas-list/).
 Each exercise will have its rules provided in the Python file.
 If the exercise needs multiple files, a folder will be created for it.
 
