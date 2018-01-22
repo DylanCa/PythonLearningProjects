@@ -4,26 +4,28 @@
 
 import sys
 
+str_input = input("Enter a word, please: ")
+
 vowels = {"a": 0, "e" : 0, "i": 0, "o": 0, "u": 0, "y": 0}
 total_vowel = 0
 
-for x in range(0, len(sys.argv[1])):
-    if sys.argv[1][x] == "a":
+for x in range(0, len(str_input)):
+    if str_input[x] == "a":
         vowels['a'] += 1
 
-    elif sys.argv[1][x] == "e":
+    elif str_input[x] == "e":
         vowels['e'] += 1
 
-    elif sys.argv[1][x] == "i":
+    elif str_input[x] == "i":
         vowels['i'] += 1
 
-    elif sys.argv[1][x] == "o":
+    elif str_input[x] == "o":
         vowels['o'] += 1
 
-    elif sys.argv[1][x] == "u":
+    elif str_input[x] == "u":
         vowels['u'] += 1
 
-    elif sys.argv[1][x] == "y":
+    elif str_input[x] == "y":
         vowels['y'] += 1
 
 
