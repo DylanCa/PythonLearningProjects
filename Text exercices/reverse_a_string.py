@@ -3,11 +3,13 @@
 
 import sys
 
-y = len(sys.argv[1])
+str_input = input("Enter a word: ")
+
+y = len(str_input)
 reversed_string = ""
 
-for x in range(0, len(sys.argv[1])):
+for x in range(0, len(str_input)):
     y = y - 1
-    reversed_string += sys.argv[1][y]
+    reversed_string += str_input[y]
 
 print(reversed_string)
