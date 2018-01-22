@@ -7,8 +7,8 @@
 
 import sys
 
-first_letter = sys.argv[1][0]
-
+str_input = input("Enter a word: ")
+first_letter = str_input[0]
 
 if (first_letter != "a" and
         first_letter != "e" and
@@ -16,6 +16,6 @@ if (first_letter != "a" and
         first_letter != "o" and
         first_letter != "u" and
         first_letter != "y"):
-    print(sys.argv[1][1:] + "-" + sys.argv[1][0] + "ay")
+    print(str_input[1:] + "-" + str_input[0] + "ay")
 else:
     print("Please start your word with a consonant, that's not funny :(")
