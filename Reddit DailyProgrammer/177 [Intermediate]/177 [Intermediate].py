@@ -77,7 +77,7 @@ morse_alphabet = {"a": ".-",
                   "0": "-----"}
 char2signal = {'.': 0.3, '-': 0.5}
 
-fname = wave.open("177 - Intermediate/morse.wav", "w")
+fname = wave.open("177 [Intermediate]/morse.wav", "w")
 fname.setparams((1, 2, 44100, 10000, "NONE", "not compressed"))
 
 for word in input("What is your sentence ! ").split():
